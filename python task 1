@@ -15,7 +15,8 @@ cube=num**3
 print("square:",square)
 print("cube:",cube)'''
 
-'''hours=float(input("enter duration in hours:"))
+'''hours=float(input("enter duration in
+ hours:"))
 minutes=hours*60
 seconds=hours*3600
 print("enter minutes:",minutes)
@@ -37,4 +38,12 @@ print("first digit:",first)
 print("second digit:",second)
 print("third digit:",third)'''
 
+
+'''a=int(input("enter a value:"))
+b=int(input("enter b value"))
+a=a^b
+b=a^b
+a=a^b
+print("a=",a)
+print("b=",b)'''
 
