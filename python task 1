@@ -27,4 +27,14 @@ mark3=float(input("enter mark 3:"))
 total=mark1+mark2+mark3
 average=total/3
 print("total:",total)
-print("average:",average)
+print("average:",average) 
+
+'''num=int(input("enter 3 digit number"))
+first=num//100
+second=(num//10)%10
+third=num%10
+print("first digit:",first)
+print("second digit:",second)
+print("third digit:",third)'''
+
+
