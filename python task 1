@@ -47,3 +47,9 @@ a=a^b
 print("a=",a)
 print("b=",b)'''
 
+
+'''number=int(input("enter 2-digit number:"))
+last_digit=number%10
+first_digit=number//10
+reverse=(last_digit*10)+first_digit
+print("reversed number=",reverse)'''
