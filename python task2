@@ -44,6 +44,24 @@ if mark<=50:
 else:
         print("invalid")'''
     
+#Task 6
+    units = float(input("Enter the total units consumed: "))
+
+    if units < 0:
+        print("Units consumed cannot be negative.")
+    else:
+        
+        if units <= 100:
+            bill = units * 2
+        elif units <= 200:
+            bill = (100 * 2) + ((units - 100) * 
+        else:
+            bill = (100 * 2) + (100 * 3) + ((units - 200) * 5)
+
+        print(f"Total Electricity Bill: ₹{bill:.2f}")
+
+except ValueError:
+    print("Invalid input. Please enter a valid number.")
 
 
 
