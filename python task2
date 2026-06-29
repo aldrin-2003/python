@@ -63,6 +63,24 @@ else:
 except ValueError:
     print("Invalid input. Please enter a valid number.")
 
+#Task 7
+
+    score = float(input("Enter the student's score percentage: "))
+    attendance = float(input("Enter the student's attendance percentage: "))
+ if score < 0 or score > 100 or attendance < 0 or attendance > 100:
+        print("Invalid input! Percentages must be between 0 and 100.")
+    else:
+        
+        if score > 80:
+            #
+            if attendance > 75:
+                print("Congratulations! The student is eligible for the scholarship.")
+            else:
+                print("Not Eligible: Score criteria met, but attendance is 75% or below.")
+        else:
+            print("Not Eligible: Score is 80% or below.")
+
+
 
 
 
