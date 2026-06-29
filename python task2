@@ -97,6 +97,35 @@ if is_doctor_available:
 else:
     print("Appointment Failed: The requested doctor is unavailable.")
 
+#Task 9
+
+CORRECT_USER = "admin"
+CORRECT_PASS = "secure123"
+CORRECT_OTP = "5544"
+
+print("--- Secure Login System ---")
+
+
+username = input("Enter username: ")
+
+if username == CORRECT_USER:
+    
+    password = input("Enter password: ")
+    
+    if password == CORRECT_PASS:
+        
+        print("OTP sent to registered mobile number.")
+        otp = input("Enter 4-digit OTP: ")
+        
+        if otp == CORRECT_OTP:
+            print("\nAccess Granted! Welcome to the secure dashboard.")
+        else:
+            print("\nAccess Denied: Invalid OTP.")
+    else:
+        print("\nAccess Denied: Incorrect password.")
+else:
+    print("\nAccess Denied: Username not found.")
+
 
 
            
