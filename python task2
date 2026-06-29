@@ -126,6 +126,26 @@ if username == CORRECT_USER:
 else:
     print("\nAccess Denied: Username not found.")
 
+#Task 10
+    degree_pct = float(input("Enter degree percentage: "))
+    aptitude_score = float(input("Enter aptitude test score: "))
+
+   
+    if degree_pct < 0 or degree_pct > 100 or aptitude_score < 0:
+        print("Invalid input! Please enter realistic scores.")
+    else:
+        
+        if degree_pct > 65:
+            
+            if aptitude_score > 75:
+                print("Status: Eligible for recruitment!")
+            else:
+                print("Status: Rejected. Degree criteria met, but aptitude score is 75 or below.")
+        else:
+            print("Status: Rejected. Degree percentage is 65% or below.")
+
+
+
 
 
            
