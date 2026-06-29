@@ -80,7 +80,22 @@ except ValueError:
         else:
             print("Not Eligible: Score is 80% or below.")
 
+#Task 8
 
+
+
+is_doctor_available = True  
+slots_open = 5       
+
+
+if is_doctor_available:
+    
+    if slots_open > 0:
+        print("Appointment Confirmed! Slot successfully booked.")
+    else:
+        print("Appointment Failed: Doctor is available, but all slots are full.")
+else:
+    print("Appointment Failed: The requested doctor is unavailable.")
 
 
 
