@@ -144,6 +144,24 @@ else:
         else:
             print("Status: Rejected. Degree percentage is 65% or below.")
 
+#Task11
+
+
+purchase_amount = float(input("Enter the purchase amount: "))
+member = input("Are you a premium member? (yes/no): ")
+
+
+if purchase_amount > 5000:
+    if member == "yes":
+        discount = purchase_amount * 0.20
+    else:
+        discount = purchase_amount * 0.10
+else:
+    discount = 0
+
+print("Discount: ₹", discount)
+print("Final Amount: ₹", purchase_amount - discount)
+
 
 
 
