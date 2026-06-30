@@ -1,0 +1,55 @@
+
+ #Task1
+for i in range(5):
+    print("aldrin")
+
+#Task 2
+for i in range(1,21):
+    print(i)
+#Task 3
+for i in range(20,0,-1):
+    print(i)
+#Task 4
+for i in range(2,51,2):
+    print(i)
+# Task 5
+for i in range(1,51,2):
+    print(i)
+#Task 6
+sum=0
+for i in range(1,11):
+    sum=sum+i
+    print(sum)
+#Task 7
+num=int(input("enter number:"))
+for i in range(1,11):
+    print(num,"x",i,"=",num*i)
+#Task 8
+name=int(input("enter name:"))
+count=len(name)
+print("letters:",count)
+
+#Task 9
+word=(input("enter word:"))
+for i in word:
+    print(i)
+#Task 10
+word=input("enter word:")
+for i in a,e,i,o,u:
+    count=count+i
+    print("NO OF WORDS",count)
+#Task 11
+
+n=5
+for i in range(n):
+    for j in range(n):
+        if i==j or i+j==n-1:
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
+#Task 12
+for i in range(1,6):
+    for j in range(i):
+        print("*",end=" ")
+    print()
